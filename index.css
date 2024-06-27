@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: rgba(58, 22, 58, 0.351);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.navbar p {
+  color: white;
+  font-size: xx-large;
+  margin-block: 1rem;
+  font-family: 'Spirax', sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.section {
+  background-image: url('assets/hot.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 15vh;
+}
+
+.section article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section article h3 {
+  display: block;
+  color: darkred;
+  font-family: 'Spirax', sans-serif;
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
+.section article > p {
+  background-color: rgba(139, 0, 0, 0.8);
+  font-family: 'Poiret One', sans-serif;
+  color: rgb(255, 255, 255, 0.8);
+  padding-block: 1rem;
+  width: 50vw;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.price-list {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-block: 1rem;
+  padding-inline: 3rem;
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+.price-list p {
+  font-family: 'Poiret One', sans-serif;
+  color: rgb(255, 255, 255, 0.8);
+  font-size: 1.3rem;
+  margin: 5px;
+}
+
+.align-left {
+  margin-right: 9rem;
+}
+
+.align-right {
+  margin-left: 9rem;
+}
+
+.juicy-section {
+  background-image: url('assets/juicy.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 15vh;
+}
+
+.section {
+  border-bottom: 1rem solid darkred;
+}
+
+#last {
+  border-width: 0;
+}

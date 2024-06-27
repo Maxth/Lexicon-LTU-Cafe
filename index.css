@@ -21,14 +21,18 @@ body {
   cursor: pointer;
 }
 
-.section {
+#hot {
   background-image: url('assets/hot.jpg');
+}
+
+.section {
   background-position: center;
   background-size: cover;
   height: 85vh;
   display: flex;
   justify-content: center;
   padding-top: 15vh;
+  border-bottom: 1rem solid darkred;
 }
 
 .section article {
@@ -71,27 +75,23 @@ body {
 }
 
 .align-left {
-  margin-right: 9rem;
+  position: relative;
+  right: 8rem;
 }
 
 .align-right {
-  margin-left: 9rem;
+  position: relative;
+  left: 8rem;
 }
 
-.juicy-section {
+#juicy {
   background-image: url('assets/juicy.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  padding-top: 15vh;
 }
 
-.section {
-  border-bottom: 1rem solid darkred;
+#cosy {
+  background-image: url('assets/cosy.jpg');
 }
 
-#last {
+#cosy {
   border-width: 0;
 }
